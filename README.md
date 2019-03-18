@@ -4,7 +4,7 @@
 
 ## Introduction
 
-We just learned the basics about creating a **Hello World** app in React, so we will use this exercise to re-do what we just learned (and hopefully to add some style :blossom: ).
+We just learned the basics about creating an app in React with create-react-app, so we will use this exercise to re-do what we just learned (and hopefully to add some style :blossom: ).
 
 ![reactjs-landing](https://user-images.githubusercontent.com/23629340/43717301-63db38d2-9987-11e8-81a6-34ea48342663.png)
 
@@ -30,19 +30,24 @@ We just learned the basics about creating a **Hello World** app in React, so we 
 
 ### Iteration 1 - Create the App
 
-Let's start with the basics: as you can see `public` folder is already there and it has some images in it. Let's add the folders you will need for the project: `dist` and `src`. Also, remember to create an `index.html` file, where you will have the entry point of the application. (Refer to the lesson to see where `index.html` suppose to be.)
+Let's start with the basics: as you can see `public` folder is already there and it has some images in it. We will have to move these images to the `public` folder from create-react-app. Also, remember that the `index.html` file is where you will have the entry point of the application.
 
 
 #### Babel and Webpack
 
 Our project needs to have two important packages that are necessary for compiling: `Babel` and `Webpack`.
 
-But don't worry, we took care of it. As well as of `webpack.config.js` file. :heavy_check_mark:
+But don't worry, create-react-app will take care of it.
 
 
 ### Iteration 2 - React Creation
 
-You are ready to start creating your React app. First, add the packages you need (**react@16.3.2 react-dom@16.3.2**). And then create an `index.js` file (refer to the lesson to see where this file suppose to be).
+  ```
+  creacte-react-app my-app-name
+  cd to my-app-name
+  npm install
+  npm start
+  ```
 
 ## Iteration 3 - First Landing Page
 
