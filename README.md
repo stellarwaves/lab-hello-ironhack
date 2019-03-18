@@ -45,7 +45,6 @@ But don't worry, create-react-app will take care of it.
   ```
   creacte-react-app lab-hello-react
   cd to lab-hello-react
-  npm install
   npm start
   ```
 
