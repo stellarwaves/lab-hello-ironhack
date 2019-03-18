@@ -43,8 +43,8 @@ But don't worry, create-react-app will take care of it.
 ### Iteration 2 - React Creation
 
   ```
-  creacte-react-app my-app-name
-  cd to my-app-name
+  creacte-react-app lab-hello-react
+  cd to lab-hello-react
   npm install
   npm start
   ```
